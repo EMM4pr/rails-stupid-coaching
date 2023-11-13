@@ -1,5 +1,7 @@
 class QuestionsController < ActionController::Base
   def ask
-    @question = params[:question]
+  end
+
+  def answer
   end
 end
