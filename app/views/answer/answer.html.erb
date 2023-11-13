@@ -1,11 +1,9 @@
-<p>
-  <%= @question %>
-  -You
-</p>
+<p class="question"><%= @question %></p>
+<p>-You</p>
 
-<p>
+<p class="question">
   <%= @answer %>
-  - Your coach
 </p>
+<p>- Your coach</p>
 
 <%= link_to '< Ask more questions', ask_path, class: "btn btn-light" %>

@@ -32,18 +32,31 @@
   color: #222;
   font-size: 16px;
   font-weight: 500;
+  margin-top: 40px;
  }
 
- .btn:hover {
+.btn:hover {
   background-color: #2222221a;
 }
 
-p{
+.question {
   font-family: Space Grotesk;
-  padding: 15px;
+  background-color: rgb(195, 239, 239);
+  padding: 10px;
+  font-style: normal;
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+p {
+  margin: 0px;
+  font-family: Space Grotesk;
+  font-style: italic;
 }
 
 h1 {
   font-family: Space Grotesk;
   color: blue;
+  text-align: center;
 }
